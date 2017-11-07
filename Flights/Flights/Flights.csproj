@@ -230,13 +230,32 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="DbProviders\DbProvider.cs" />
     <Compile Include="Entity\ApplicationUser.cs" />
+    <Compile Include="Entity\Flight.cs" />
+    <Compile Include="Entity\RegisteredFlight.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201711070853481_CreateApplicationUser.cs" />
     <Compile Include="Migrations\201711070853481_CreateApplicationUser.Designer.cs">
       <DependentUpon>201711070853481_CreateApplicationUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711071011523_AddNewModels.cs" />
+    <Compile Include="Migrations\201711071011523_AddNewModels.Designer.cs">
+      <DependentUpon>201711071011523_AddNewModels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711071015477_AddNewModelsTry2.cs" />
+    <Compile Include="Migrations\201711071015477_AddNewModelsTry2.Designer.cs">
+      <DependentUpon>201711071015477_AddNewModelsTry2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711071020151_DeleteUserIdOnRegFlg.cs" />
+    <Compile Include="Migrations\201711071020151_DeleteUserIdOnRegFlg.Designer.cs">
+      <DependentUpon>201711071020151_DeleteUserIdOnRegFlg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201711071022553_AddUserID.cs" />
+    <Compile Include="Migrations\201711071022553_AddUserID.Designer.cs">
+      <DependentUpon>201711071022553_AddUserID.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
@@ -245,6 +264,7 @@
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="Utils\DiscountUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
@@ -324,6 +344,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201711070853481_CreateApplicationUser.resx">
       <DependentUpon>201711070853481_CreateApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711071011523_AddNewModels.resx">
+      <DependentUpon>201711071011523_AddNewModels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711071015477_AddNewModelsTry2.resx">
+      <DependentUpon>201711071015477_AddNewModelsTry2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711071020151_DeleteUserIdOnRegFlg.resx">
+      <DependentUpon>201711071020151_DeleteUserIdOnRegFlg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711071022553_AddUserID.resx">
+      <DependentUpon>201711071022553_AddUserID.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -104,3 +104,7 @@ C:\Users\Сергей\Desktop\подготовка\web\Git\Flights\Flights\Fligh
 C:\Users\Сергей\Desktop\подготовка\web\Git\Flights\Flights\Flights\obj\Debug\Flights.pdb
 C:\Users\Сергей\Desktop\подготовка\web\Git\Flights\Flights\Flights\obj\Debug\Flights.Migrations.CreateApplicationUser.resources
 C:\Users\Сергей\Desktop\подготовка\web\Git\Flights\Flights\Flights\obj\Debug\Flights.csproj.GenerateResource.Cache
+C:\Users\Сергей\Desktop\подготовка\web\Git\Flights\Flights\Flights\obj\Debug\Flights.Migrations.AddNewModels.resources
+C:\Users\Сергей\Desktop\подготовка\web\Git\Flights\Flights\Flights\obj\Debug\Flights.Migrations.AddNewModelsTry2.resources
+C:\Users\Сергей\Desktop\подготовка\web\Git\Flights\Flights\Flights\obj\Debug\Flights.Migrations.DeleteUserIdOnRegFlg.resources
+C:\Users\Сергей\Desktop\подготовка\web\Git\Flights\Flights\Flights\obj\Debug\Flights.Migrations.AddUserID.resources
